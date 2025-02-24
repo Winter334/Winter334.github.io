@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://winter334.github.io</id>
     <title>Hexo</title>
     <subtitle></subtitle>
-    <icon>http://example.com/assets/favicon.ico</icon>
-    <link href="http://example.com" />
+    <icon>https://winter334.github.io/assets/favicon.ico</icon>
+    <link href="https://winter334.github.io" />
     <author>
       <name>John Doe</name>
     </author>
     <updated>2025-02-23T11:00:06.104Z</updated>
     <entry>
-        <id>http://example.com/2025/02/23/hello-world/</id>
+        <id>https://winter334.github.io/2025/02/23/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/2025/02/23/hello-world/"/>
+        <link rel="alternate" href="https://winter334.github.io/2025/02/23/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -30,9 +30,9 @@
         <updated>2025-02-23T11:00:06.104Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2025/02/14/computer-science/csharp/Nullable/</id>
+        <id>https://winter334.github.io/2025/02/14/computer-science/csharp/Nullable/</id>
         <title>C#可空类型</title>
-        <link rel="alternate" href="http://example.com/2025/02/14/computer-science/csharp/Nullable/"/>
+        <link rel="alternate" href="https://winter334.github.io/2025/02/14/computer-science/csharp/Nullable/"/>
         <content type="html">&lt;h1 id=&#34;C-单问号&#34;&gt;&lt;a href=&#34;#C-单问号&#34; class=&#34;headerlink&#34; title=&#34;? C#单问号&#34;&gt;&lt;/a&gt;&lt;code&gt;?&lt;/code&gt; C#单问号&lt;/h1&gt;&lt;p&gt;[?]{.label}单问号用于对 &lt;strong&gt;int、double、bool&lt;/strong&gt; 等无法直接赋值为 null 的数据类型进行 null 的赋值，意思是这个数据类型是 Nullable 类型的。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-csharp&#34;&gt;int? i = 7;
 &lt;/code&gt;&lt;/pre&gt;
@@ -100,16 +100,16 @@ namespace CalculatorApplication
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;上面代码的运行结果如下：&lt;br&gt;:::default&lt;br&gt;num3 的值： 5.34&lt;br&gt;num3 的值： 3.14157&lt;br&gt;:::&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
-        <category term="C#" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/C/" />
-        <category term="C#" scheme="http://example.com/tags/C/" />
-        <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/" />
+        <category term="计算机科学" scheme="https://winter334.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
+        <category term="C#" scheme="https://winter334.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/C/" />
+        <category term="C#" scheme="https://winter334.github.io/tags/C/" />
+        <category term="笔记" scheme="https://winter334.github.io/tags/%E7%AC%94%E8%AE%B0/" />
         <updated>2025-02-14T08:03:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/18/kaoyan-notes/politics/Day13/</id>
+        <id>https://winter334.github.io/2024/11/18/kaoyan-notes/politics/Day13/</id>
         <title>Day13</title>
-        <link rel="alternate" href="http://example.com/2024/11/18/kaoyan-notes/politics/Day13/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/18/kaoyan-notes/politics/Day13/"/>
         <content type="html">&lt;h1 id=&#34;为什么说现阶段我们要把实现全体人民共同富裕摆在更重要的位置？&#34;&gt;&lt;a href=&#34;#为什么说现阶段我们要把实现全体人民共同富裕摆在更重要的位置？&#34; class=&#34;headerlink&#34; title=&#34;为什么说现阶段我们要把实现全体人民共同富裕摆在更重要的位置？&#34;&gt;&lt;/a&gt;为什么说现阶段我们要把实现全体人民共同富裕摆在更重要的位置？&lt;/h1&gt;&lt;p&gt;党的十八大以来，党中央把握发展阶段新变化，把逐步实现全体人民共同富裕摆在更加重要的位置上，推动区域协调发展，采取有力措施保障和改善民生，打赢脱贫攻坚战，全面建成小康社会，为促进共同富裕创造了良好条件。现在，已经到了扎实推动共同富裕的历史阶段。&lt;/p&gt;
 &lt;h2 id=&#34;具体来说有三点&#34;&gt;&lt;a href=&#34;#具体来说有三点&#34; class=&#34;headerlink&#34; title=&#34;具体来说有三点&#34;&gt;&lt;/a&gt;具体来说有三点&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，我们正在向第二个百年奋斗目标迈进。适应我国社会主要矛盾的变化，更好满足人民日益增长的美好生活需要，必须把促进全体人民共同富裕作为为人民谋幸福的着力点，不断夯实党长期执政基础。&lt;/p&gt;
@@ -136,17 +136,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-18T03:38:07.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/17/kaoyan-notes/politics/Day12/</id>
+        <id>https://winter334.github.io/2024/11/17/kaoyan-notes/politics/Day12/</id>
         <title>Day12</title>
-        <link rel="alternate" href="http://example.com/2024/11/17/kaoyan-notes/politics/Day12/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/17/kaoyan-notes/politics/Day12/"/>
         <content type="html">&lt;h1 id=&#34;推动“高质量发展”的必要性有哪些？&#34;&gt;&lt;a href=&#34;#推动“高质量发展”的必要性有哪些？&#34; class=&#34;headerlink&#34; title=&#34;推动“高质量发展”的必要性有哪些？&#34;&gt;&lt;/a&gt;推动“高质量发展”的必要性有哪些？&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，推动高质量发展使保持经济持续健康发展的必然要求。&lt;/p&gt;
 &lt;/li&gt;
@@ -175,17 +175,17 @@ namespace CalculatorApplication
 &lt;h2 id=&#34;国内的问题&#34;&gt;&lt;a href=&#34;#国内的问题&#34; class=&#34;headerlink&#34; title=&#34;国内的问题&#34;&gt;&lt;/a&gt;&lt;code&gt;国内的问题&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;同时我国&amp;#x3D;&amp;#x3D;发展不平衡不充分问题&amp;#x3D;&amp;#x3D;仍然突出，重点领域关键环节改革任务仍然艰巨，特别是创新能力不适应高质量发展的要求，关键核心技术受制于人的局面没有得到根本性改变，多个领域如高端芯片、基础元器件等存在**“卡脖子”问题**{.red}，在科技发展面临外部打压和遏制加剧的形势下，须加快自主创新步伐。[仍有一些问题]{.label .danger}&lt;/p&gt;
 &lt;h2 id=&#34;总的来说&#34;&gt;&lt;a href=&#34;#总的来说&#34; class=&#34;headerlink&#34; title=&#34;总的来说&#34;&gt;&lt;/a&gt;&lt;code&gt;总的来说&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;当前和今后一个时期，我国发展仍然处于&lt;strong&gt;重要战略机遇期&lt;/strong&gt;{.red}。&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-17T06:09:59.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/16/kaoyan-notes/politics/Day11/</id>
+        <id>https://winter334.github.io/2024/11/16/kaoyan-notes/politics/Day11/</id>
         <title>Day11</title>
-        <link rel="alternate" href="http://example.com/2024/11/16/kaoyan-notes/politics/Day11/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/16/kaoyan-notes/politics/Day11/"/>
         <content type="html">&lt;h1 id=&#34;如何构建“新发展格局”？&#34;&gt;&lt;a href=&#34;#如何构建“新发展格局”？&#34; class=&#34;headerlink&#34; title=&#34;如何构建“新发展格局”？&#34;&gt;&lt;/a&gt;如何构建“新发展格局”？&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，救助扩大内需的战略基点，畅通国民经济循环。在我国发展现阶段，畅通经济循环最主要的任务使供给侧有效畅通，有效供给能力可以穿透循环堵点、消除瓶颈制约，可以创造就业和提供收入，从而形成需求能力。&lt;/p&gt;
 &lt;/li&gt;
@@ -223,17 +223,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-16T03:55:55.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/15/kaoyan-notes/politics/Day10/</id>
+        <id>https://winter334.github.io/2024/11/15/kaoyan-notes/politics/Day10/</id>
         <title>Day10</title>
-        <link rel="alternate" href="http://example.com/2024/11/15/kaoyan-notes/politics/Day10/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/15/kaoyan-notes/politics/Day10/"/>
         <content type="html">&lt;h1 id=&#34;实体经济&#34;&gt;&lt;a href=&#34;#实体经济&#34; class=&#34;headerlink&#34; title=&#34;实体经济&#34;&gt;&lt;/a&gt;实体经济&lt;/h1&gt;&lt;h2 id=&#34;实体经济有多重要？&#34;&gt;&lt;a href=&#34;#实体经济有多重要？&#34; class=&#34;headerlink&#34; title=&#34;实体经济有多重要？&#34;&gt;&lt;/a&gt;实体经济有多重要？&lt;/h2&gt;&lt;p&gt;实体经济是一国经济的立生之本，是财富创造的根本源泉，是国家强盛的重要支柱，是现代化经济体系的坚实基础。&lt;/p&gt;
 &lt;h2 id=&#34;如何发展实体经济？&#34;&gt;&lt;a href=&#34;#如何发展实体经济？&#34; class=&#34;headerlink&#34; title=&#34;如何发展实体经济？&#34;&gt;&lt;/a&gt;如何发展实体经济？&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;要深化供给侧结构性改革，加快发展先进制造业，推动互联网、大数据、人工智能同实体经济深度融合，推动资源要素向实体经济集聚、政策措施向实体经济倾斜、工作力量向实体经济加强，激发和保护企业家精神，弘扬劳模精神和工匠精神，营造脚踏实地、勤劳创业、实业致富的发展环境和社会氛围。&lt;/li&gt;
@@ -249,17 +249,17 @@ namespace CalculatorApplication
 &lt;/ul&gt;
 &lt;h2 id=&#34;如何完善&#34;&gt;&lt;a href=&#34;#如何完善&#34; class=&#34;headerlink&#34; title=&#34;如何完善&#34;&gt;&lt;/a&gt;如何完善&lt;/h2&gt;&lt;p&gt; 要支持和保证人民通过人民代表大会行使国家权力。&lt;br&gt; 发挥人大及常委会在立法工作中的主导作用，健全人大组织制度和工作制度，支持和保证人大依法行使立法权、监督权、决定权、任免权，更好发挥人大代表作用，使各级人大及常委会成为全面负担起宪法法律赋予的各项职责的工作机关，成为同人民群众保持密切联系的代表机关。&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-15T02:58:34.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/14/kaoyan-notes/politics/Day9/</id>
+        <id>https://winter334.github.io/2024/11/14/kaoyan-notes/politics/Day9/</id>
         <title>Day9</title>
-        <link rel="alternate" href="http://example.com/2024/11/14/kaoyan-notes/politics/Day9/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/14/kaoyan-notes/politics/Day9/"/>
         <content type="html">&lt;h1 id=&#34;开放发展的必要性&#34;&gt;&lt;a href=&#34;#开放发展的必要性&#34; class=&#34;headerlink&#34; title=&#34;开放发展的必要性&#34;&gt;&lt;/a&gt;开放发展的必要性&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;开放带来进步，封闭必然落后。中国的发展离不开世界，世界的繁荣也需要中国。&lt;/p&gt;
 &lt;/li&gt;
@@ -286,17 +286,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-14T04:26:20.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/13/kaoyan-notes/politics/Day8/</id>
+        <id>https://winter334.github.io/2024/11/13/kaoyan-notes/politics/Day8/</id>
         <title>Day8</title>
-        <link rel="alternate" href="http://example.com/2024/11/13/kaoyan-notes/politics/Day8/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/13/kaoyan-notes/politics/Day8/"/>
         <content type="html">&lt;h1 id=&#34;新发展阶段&#34;&gt;&lt;a href=&#34;#新发展阶段&#34; class=&#34;headerlink&#34; title=&#34;新发展阶段&#34;&gt;&lt;/a&gt;新发展阶段&lt;/h1&gt;&lt;h2 id=&#34;角度一新发展阶段面临怎样的发展环境？&#34;&gt;&lt;a href=&#34;#角度一新发展阶段面临怎样的发展环境？&#34; class=&#34;headerlink&#34; title=&#34;角度一新发展阶段面临怎样的发展环境？&#34;&gt;&lt;/a&gt;&lt;code&gt;角度一&lt;/code&gt;新发展阶段面临怎样的发展环境？&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，当今世界正经历百年未有之大变局，新一轮科技革命和产业革命深入发展，国际力量对比深刻调整，和平与发展仍是时代主题，人类命运共同体理念深入人心。&lt;/p&gt;
 &lt;/li&gt;
@@ -329,17 +329,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
-        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="http://example.com/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="毛泽东思想和中国特色社会主义理论体系概论" scheme="https://winter334.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" />
         <updated>2024-11-13T06:48:53.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/12/kaoyan-notes/politics/Day7/</id>
+        <id>https://winter334.github.io/2024/11/12/kaoyan-notes/politics/Day7/</id>
         <title>Day7</title>
-        <link rel="alternate" href="http://example.com/2024/11/12/kaoyan-notes/politics/Day7/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/12/kaoyan-notes/politics/Day7/"/>
         <content type="html">&lt;h1 id=&#34;认识论的真理尺度和价值尺度的辩证关系原理&#34;&gt;&lt;a href=&#34;#认识论的真理尺度和价值尺度的辩证关系原理&#34; class=&#34;headerlink&#34; title=&#34;认识论的真理尺度和价值尺度的辩证关系原理&#34;&gt;&lt;/a&gt;认识论的真理尺度和价值尺度的辩证关系原理&lt;/h1&gt;&lt;p&gt;;;;id1 真理尺度&lt;br&gt;在实践中人们必须&lt;strong&gt;遵循正确反映客观事物本质和规律&lt;/strong&gt;{.red}的真理。&lt;br&gt;;;;&lt;/p&gt;
 &lt;p&gt;;;;id1 价值尺度&lt;br&gt;在实践中人们都是&lt;strong&gt;按照自己的尺度和需要&lt;/strong&gt;{.red}去认识世界和改造世界，创造和实现价值的。&lt;br&gt;;;;&lt;/p&gt;
 &lt;p&gt;;;;id1 辩证关系&lt;/p&gt;
@@ -377,17 +377,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-12T04:57:24.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/11/kaoyan-notes/politics/Day6/</id>
+        <id>https://winter334.github.io/2024/11/11/kaoyan-notes/politics/Day6/</id>
         <title>Day6</title>
-        <link rel="alternate" href="http://example.com/2024/11/11/kaoyan-notes/politics/Day6/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/11/kaoyan-notes/politics/Day6/"/>
         <content type="html">&lt;h1 id=&#34;认识的影响因素（理性因素与非理性因素的原理）&#34;&gt;&lt;a href=&#34;#认识的影响因素（理性因素与非理性因素的原理）&#34; class=&#34;headerlink&#34; title=&#34;认识的影响因素（理性因素与非理性因素的原理）&#34;&gt;&lt;/a&gt;认识的影响因素（理性因素与非理性因素的原理）&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;[理性因素]{.label .danger}是指人的理性直观、理性思维等能力，在认识活动中有&lt;strong&gt;指导作用&lt;/strong&gt;{.red}、&lt;strong&gt;解释作用&lt;/strong&gt;{.red}、&lt;strong&gt;预见作用&lt;/strong&gt;{.red}等。&lt;/p&gt;
 &lt;/li&gt;
@@ -404,17 +404,17 @@ namespace CalculatorApplication
 &lt;/ul&gt;
 &lt;h2 id=&#34;认识过程的无限性&#34;&gt;&lt;a href=&#34;#认识过程的无限性&#34; class=&#34;headerlink&#34; title=&#34;认识过程的无限性&#34;&gt;&lt;/a&gt;认识过程的无限性&lt;/h2&gt;&lt;p&gt;是指对于事物发展过程的推移来说人类的认识是&lt;strong&gt;永无止境、无限发展&lt;/strong&gt;{.red}的。它表现为&lt;strong&gt;实践——认识——再实践——再认识&lt;/strong&gt;{.red}的&lt;strong&gt;无限循环&lt;/strong&gt;{.red}。由&lt;strong&gt;初级阶段向高级阶段不断推移&lt;/strong&gt;{.red}的永无止境的前进活动。这种认识的上无限发展过程再形式上是&lt;strong&gt;循环往复&lt;/strong&gt;{.red}的，再实质上是&lt;strong&gt;前进上升&lt;/strong&gt;{.red}的、&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-11T04:02:50.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/10/kaoyan-notes/politics/Day5/</id>
+        <id>https://winter334.github.io/2024/11/10/kaoyan-notes/politics/Day5/</id>
         <title>Day5</title>
-        <link rel="alternate" href="http://example.com/2024/11/10/kaoyan-notes/politics/Day5/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/10/kaoyan-notes/politics/Day5/"/>
         <content type="html">&lt;h1 id=&#34;从感性认识到理性认识的飞跃&#34;&gt;&lt;a href=&#34;#从感性认识到理性认识的飞跃&#34; class=&#34;headerlink&#34; title=&#34;从感性认识到理性认识的飞跃&#34;&gt;&lt;/a&gt;从感性认识到理性认识的飞跃&lt;/h1&gt;&lt;h2 id=&#34;概念&#34;&gt;&lt;a href=&#34;#概念&#34; class=&#34;headerlink&#34; title=&#34;概念&#34;&gt;&lt;/a&gt;概念&lt;/h2&gt;&lt;p&gt;;;;id1 感性认识&lt;br&gt;感性认识是认识的&lt;strong&gt;初级阶段&lt;/strong&gt;{.red}，是人们在实践基础上，由&lt;strong&gt;感官直接感受到的&lt;/strong&gt;{.red}关于事物的现象、事物的外部联系、事物的各方面的认识。&lt;br&gt;;;;&lt;/p&gt;
 &lt;p&gt;;;;id1 理性认识&lt;br&gt;理性认识是认识的&lt;strong&gt;高级阶段&lt;/strong&gt;{.red}，是人们借助抽象思维，在概括整理大量感性材料的基础上，达到关于事物的&lt;strong&gt;本质、全体、内部联系&lt;/strong&gt;{.red}和事物自身&lt;strong&gt;规律性&lt;/strong&gt;{.red}的认识。&lt;br&gt;;;;&lt;/p&gt;
 &lt;h2 id=&#34;感性认识和理性认识的辩证关系&#34;&gt;&lt;a href=&#34;#感性认识和理性认识的辩证关系&#34; class=&#34;headerlink&#34; title=&#34;感性认识和理性认识的辩证关系&#34;&gt;&lt;/a&gt;感性认识和理性认识的辩证关系&lt;/h2&gt;&lt;p&gt;;;;id2 相互区别&lt;br&gt;+++info 第一，对象不同&lt;br&gt;感性认识是对事物&lt;strong&gt;外部联系的反映&lt;/strong&gt;{.red}，而理性认识是对&lt;strong&gt;事物内部联系的反映&lt;/strong&gt;{.red}。&lt;br&gt;+++&lt;/p&gt;
@@ -437,17 +437,17 @@ namespace CalculatorApplication
 &lt;/ul&gt;
 &lt;h2 id=&#34;思维导图&#34;&gt;&lt;a href=&#34;#思维导图&#34; class=&#34;headerlink&#34; title=&#34;思维导图&#34;&gt;&lt;/a&gt;思维导图&lt;/h2&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://dlink.host/wx3.sinaimg.cn/large/008GLkgIly8hvh03dctfvj30m80kg0u4.jpg&#34; title=&#34;思维导图&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-10T03:16:54.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/09/kaoyan-notes/politics/Day4/</id>
+        <id>https://winter334.github.io/2024/11/09/kaoyan-notes/politics/Day4/</id>
         <title>Day4</title>
-        <link rel="alternate" href="http://example.com/2024/11/09/kaoyan-notes/politics/Day4/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/09/kaoyan-notes/politics/Day4/"/>
         <content type="html">&lt;h1 id=&#34;矛盾的不平衡发展原理&#34;&gt;&lt;a href=&#34;#矛盾的不平衡发展原理&#34; class=&#34;headerlink&#34; title=&#34;矛盾的不平衡发展原理&#34;&gt;&lt;/a&gt;矛盾的不平衡发展原理&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;主要矛盾是矛盾体系中处于&lt;strong&gt;支配地位&lt;/strong&gt;{.red}、对事物发展起&lt;strong&gt;决定作用&lt;/strong&gt;{.red}的矛盾。&lt;/p&gt;
 &lt;/li&gt;
@@ -467,17 +467,17 @@ namespace CalculatorApplication
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-09T04:06:42.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/08/kaoyan-notes/politics/Day3/</id>
+        <id>https://winter334.github.io/2024/11/08/kaoyan-notes/politics/Day3/</id>
         <title>Day3</title>
-        <link rel="alternate" href="http://example.com/2024/11/08/kaoyan-notes/politics/Day3/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/08/kaoyan-notes/politics/Day3/"/>
         <content type="html">&lt;h1 id=&#34;矛盾的普遍性和特殊性的辩证关系原理&#34;&gt;&lt;a href=&#34;#矛盾的普遍性和特殊性的辩证关系原理&#34; class=&#34;headerlink&#34; title=&#34;矛盾的普遍性和特殊性的辩证关系原理&#34;&gt;&lt;/a&gt;矛盾的普遍性和特殊性的辩证关系原理&lt;/h1&gt;&lt;p&gt;矛盾的普遍性简单来说可以表述为&amp;#x3D;&amp;#x3D;矛盾无处不在&amp;#x3D;&amp;#x3D;、&amp;#x3D;&amp;#x3D;矛盾无时不有&amp;#x3D;&amp;#x3D;。&lt;/p&gt;
 &lt;p&gt;矛盾的特殊性是指各个具体事物的矛盾及每一个矛盾的各个方面在发展的不同阶段上各有其特点。具体表现为三种情形：&lt;/p&gt;
 &lt;ul&gt;
@@ -502,17 +502,17 @@ namespace CalculatorApplication
 &lt;li&gt;第三，量变和质变是&lt;strong&gt;相互渗透&lt;/strong&gt;{.red}的。一方面在量变的过程中有阶段性和局部性的&lt;strong&gt;部分质变&lt;/strong&gt;{.red};另一方面，在质变过程中也有&lt;strong&gt;旧质在量上的收缩&lt;/strong&gt;{.red}和&lt;strong&gt;新质在量上的扩张&lt;/strong&gt;{.red}。&lt;br&gt;;;;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-08T09:14:56.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/07/kaoyan-notes/politics/Day2/</id>
+        <id>https://winter334.github.io/2024/11/07/kaoyan-notes/politics/Day2/</id>
         <title>Day2</title>
-        <link rel="alternate" href="http://example.com/2024/11/07/kaoyan-notes/politics/Day2/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/07/kaoyan-notes/politics/Day2/"/>
         <content type="html">&lt;h1 id=&#34;客观规律性与主观能动性的辩证关系原理&#34;&gt;&lt;a href=&#34;#客观规律性与主观能动性的辩证关系原理&#34; class=&#34;headerlink&#34; title=&#34;客观规律性与主观能动性的辩证关系原理&#34;&gt;&lt;/a&gt;客观规律性与主观能动性的辩证关系原理&lt;/h1&gt;&lt;h2 id=&#34;主观能动性和客观规律的关系&#34;&gt;&lt;a href=&#34;#主观能动性和客观规律的关系&#34; class=&#34;headerlink&#34; title=&#34;主观能动性和客观规律的关系&#34;&gt;&lt;/a&gt;主观能动性和客观规律的关系&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，必须尊重客观规律，尊重客观规律是充分发挥主观能动性的前提。&lt;/p&gt;
 &lt;/li&gt;
@@ -542,17 +542,17 @@ namespace CalculatorApplication
 &lt;p&gt;由于矛盾的性质不同，矛盾的斗争形式也不同，对于多种多样的斗争形式，可以分为&amp;#x3D;&amp;#x3D;对抗性矛盾&amp;#x3D;&amp;#x3D;和&amp;#x3D;&amp;#x3D;非对抗性矛盾&amp;#x3D;&amp;#x3D;两种基本形式。&lt;/p&gt;
 &lt;h2 id=&#34;矛盾的同一性和斗争性相互联结、相辅相成&#34;&gt;&lt;a href=&#34;#矛盾的同一性和斗争性相互联结、相辅相成&#34; class=&#34;headerlink&#34; title=&#34;矛盾的同一性和斗争性相互联结、相辅相成&#34;&gt;&lt;/a&gt;矛盾的同一性和斗争性相互联结、相辅相成&lt;/h2&gt;&lt;p&gt;没有斗争就没有同一性，没有同一性也没有斗争性，斗争性寓于同一性之中，同一性通过斗争性来体现。在事务矛盾中，&amp;#x3D;&amp;#x3D;矛盾的斗争性是[无条件的、绝对的]{.red},矛盾的同一性是[有条件的、相对的]{.red}&amp;#x3D;&amp;#x3D;。&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-07T04:40:41.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/11/06/kaoyan-notes/politics/Day1/</id>
+        <id>https://winter334.github.io/2024/11/06/kaoyan-notes/politics/Day1/</id>
         <title>Day1</title>
-        <link rel="alternate" href="http://example.com/2024/11/06/kaoyan-notes/politics/Day1/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/11/06/kaoyan-notes/politics/Day1/"/>
         <content type="html">&lt;h1 id=&#34;意识的能动性作用原理&#34;&gt;&lt;a href=&#34;#意识的能动性作用原理&#34; class=&#34;headerlink&#34; title=&#34;意识的能动性作用原理&#34;&gt;&lt;/a&gt;意识的能动性作用原理&lt;/h1&gt;&lt;p&gt;意识的能动作用是人所特有的积极认识世界和改造世界的能力。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第一，意识反应世界具有&amp;#x3D;&amp;#x3D;自觉性&amp;#x3D;&amp;#x3D;，意识活动具有目的性和计划性。&lt;/p&gt;
@@ -575,17 +575,17 @@ namespace CalculatorApplication
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://dlink.host/wx4.sinaimg.cn/large/008GLkgIly8hvci73kx5ej30u00u041s.jpg&#34; title=&#34;人与自然的辩证关系&#34;&gt;{height&amp;#x3D;”500px” width&amp;#x3D;”500px”}&lt;/p&gt;
 &lt;p&gt;:::info&lt;br&gt;延伸：当今世界出现的生态、环境、人口、资源等全球危机问题，并不单纯是自然系统内平衡关系的严重破坏，实际上也是人与自然关系的的严重失衡。&lt;br&gt;马克思认为，应到合理地调节人与自然之间的物质转换，在最无愧于和最合适人类本性的条件下进行这种物质变换。恩格斯也提出了自然界“对人进行报复”以及“人类同自然的和解”问题。随着人类改造自然的拓展和深化，人们越来越认识到正确处理人与自然的关系、实现人与自然和谐统一的重要性。&lt;br&gt;:::&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="考研政治" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="马克思主义基本原理" scheme="http://example.com/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
-        <category term="政治" scheme="http://example.com/tags/%E6%94%BF%E6%B2%BB/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="考研政治" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="马克思主义基本原理" scheme="https://winter334.github.io/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" />
+        <category term="政治" scheme="https://winter334.github.io/tags/%E6%94%BF%E6%B2%BB/" />
         <updated>2024-11-06T05:22:55.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/09/02/kaoyan-notes/mathematics/%E5%BE%AE%E5%88%86%E7%AE%97%E5%AD%90%E6%B3%95/</id>
+        <id>https://winter334.github.io/2024/09/02/kaoyan-notes/mathematics/%E5%BE%AE%E5%88%86%E7%AE%97%E5%AD%90%E6%B3%95/</id>
         <title>微分算子法</title>
-        <link rel="alternate" href="http://example.com/2024/09/02/kaoyan-notes/mathematics/%E5%BE%AE%E5%88%86%E7%AE%97%E5%AD%90%E6%B3%95/"/>
+        <link rel="alternate" href="https://winter334.github.io/2024/09/02/kaoyan-notes/mathematics/%E5%BE%AE%E5%88%86%E7%AE%97%E5%AD%90%E6%B3%95/"/>
         <content type="html">&lt;p&gt;:::primary&lt;br&gt;++微分算子法++，一种用于求解高阶线性非齐次微分方程的方法，特点是简洁高效、易理解、易上手。&lt;br&gt;不过值得一提的是微分算子法在考试中使用时如果计算错误，将面临无法得分的窘境，因此建议在++草稿纸++上使用以简化计算，卷面上使用其他的方法。&lt;br&gt;下面是几种微分算子法的使用情景。&lt;br&gt;:::&lt;/p&gt;
 &lt;p&gt;:::warning&lt;br&gt;对于微分算子法中出现的D和1&amp;#x2F;D是在此方法中定义的一种运算符，因此，在解题时使用它们时需要特别说明！&lt;br&gt;:::&lt;/p&gt;
 &lt;p&gt;其中D代表对右侧函数进行求导&lt;br&gt;例：&lt;br&gt;$$&lt;br&gt;D6&amp;#x3D;0\&lt;br&gt;Dx^2 &amp;#x3D; 2x \&lt;br&gt;D\sin{x} &amp;#x3D; \cos{x} \&lt;br&gt;D^2x^2 &amp;#x3D; D2x &amp;#x3D; 2 \&lt;br&gt;(D+1) \sin{x} &amp;#x3D; D \sin{x} + \sin{x} &amp;#x3D; \cos{x} + \sin{x}&lt;br&gt;$$&lt;/p&gt;
@@ -594,10 +594,10 @@ namespace CalculatorApplication
 &lt;p&gt;例1：求$y’’-2y’+y&amp;#x3D;3e^x$的解&lt;br&gt;第一步写出特征方程$\lambda^2-2\lambda+1&amp;#x3D;0$，然后写出$f(D)&amp;#x3D;\frac{1}{D^2-2D+1}$&lt;br&gt;第二步设特解$y^&lt;em&gt;&amp;#x3D;\frac{1}{D^2-2D+1}3e^x$&lt;br&gt;第三步将k代入D求解，$y^&lt;/em&gt;&amp;#x3D;\frac{1}{1-2+1}3e^x&amp;#x3D;\frac103e^x$&lt;br&gt;此时发现分母为0了怎么办，面对这种情况&lt;br&gt;首先，回到第二步，然后在等式右边乘上一个x然后对分母进行求导，得到$y^&lt;em&gt;&amp;#x3D;x\frac{1}{2D-2}3e^x$&lt;br&gt;如果此时分母仍然是0，重复刚才的步骤直到分母不为0&lt;br&gt;这时候我们得到$y^&lt;/em&gt;&amp;#x3D;x^2\frac123e^x&amp;#x3D;\frac32x^2e^x$&lt;/p&gt;
 &lt;h1 id=&#34;型二-f-x-sin-cosax-型&#34;&gt;&lt;a href=&#34;#型二-f-x-sin-cosax-型&#34; class=&#34;headerlink&#34; title=&#34;型二$f(x)&amp;#x3D;sin&amp;#x2F;cosax$型&#34;&gt;&lt;/a&gt;&lt;code&gt;型二&lt;/code&gt;$f(x)&amp;#x3D;sin&amp;#x2F;cosax$型&lt;/h1&gt;&lt;p&gt;:::info&lt;br&gt;见a换$D^2$,并且只能换$D^2$，只有一个D是不能换的&lt;br&gt;:::&lt;br&gt;例: $y’’+4y&amp;#x3D;cos2x$，求y*&lt;br&gt;前面步骤一样，写特征方程，设特解$y*&amp;#x3D;\frag{1}{D^2+4}\cos{2x}$&lt;/p&gt;
 </content>
-        <category term="考研笔记" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
-        <category term="高等数学" scheme="http://example.com/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-        <category term="Study" scheme="http://example.com/tags/Study/" />
-        <category term="Math" scheme="http://example.com/tags/Math/" />
+        <category term="考研笔记" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" />
+        <category term="高等数学" scheme="https://winter334.github.io/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="Study" scheme="https://winter334.github.io/tags/Study/" />
+        <category term="Math" scheme="https://winter334.github.io/tags/Math/" />
         <updated>2024-09-02T10:08:39.000Z</updated>
     </entry>
 </feed>
