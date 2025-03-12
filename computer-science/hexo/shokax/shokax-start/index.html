@@ -1,0 +1,408 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.webp"/><meta name="msvalidate.01" content="50A6F82517700BE9C41FDC54C1B63A08"/><meta name="google-site-verification" content="wwS5JXZr2wheQgpYq5XgUiHA0R-wbAPMgdjteXJaxfs"/><meta name="yandex-verification" content="bb323aa93a90edf8"/><meta name="baidu-site-verification" content="codeva-BFec3ICoPw"/><link rel="alternate" href="/rss.xml" title="流萤白沙のBlog" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="流萤白沙のBlog" type="application/atom+xml"><link rel="alternate" type="application/json" title="流萤白沙のBlog" href="https://lyrashore.com/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="preconnect" href="https://blog-comment.lyrashore.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="/css/app.css?v=0.4.21"><link rel="modulepreload" href="/js/chunk-3QQAZZI6.js"></link><link rel="modulepreload" href="/js/chunk-DRKZWXSW.js"></link><link rel="modulepreload" href="/js/chunk-ODQLOCQD.js"></link><link rel="modulepreload" href="/js/chunk-PIBEMUGC.js"></link><link rel="modulepreload" href="/js/chunk-W2VEVISB.js"></link><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"></link><link rel="modulepreload" href="/js/comments-GJEZ25PW.js"></link><link rel="modulepreload" href="/js/copy-tex-MECBLG7J.js"></link><link rel="modulepreload" href="/js/index.esm-SLXWQLHZ.js"></link><link rel="modulepreload" href="/js/post-FUUW2A6P.js"></link><link rel="modulepreload" href="/js/quicklink-ZIKXCB6S.js"></link><link rel="modulepreload" href="/js/search-E3JEAP4Y.js"></link><link rel="modulepreload" href="/js/siteInit.js"></link><link rel="modulepreload" href="/js/waline-672B3O2I.js"></link><link rel="stylesheet" href="/css/comments-F4ZGS7LD.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="stylesheet" href="/css/waline-IDNZKML2.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="preload" href="https://img.whitesand.top/img/20250224203959038.webp" as="image" fetchpriority="high"><link rel="preload" href="https://img.whitesand.top/img/20250223213425162.webp" as="image" fetchpriority="high"><link rel="preload" href="https://img.whitesand.top/img/20250224203959040.webp" as="image" fetchpriority="high"><link rel="preload" href="https://img.whitesand.top/img/20250224203900257.webp" as="image" fetchpriority="high"><link rel="preload" href="https://img.whitesand.top/img/20250304192352339.webp" as="image" fetchpriority="high"><link rel="preload" href="https://img.whitesand.top/img/20250223213356064.webp" as="image" fetchpriority="high"><script src="https://cdn.jsdmirror.com/gh/Uyoahz26/daodao@main/dist/qexo-dao.min.js">       </script><meta name="keywords" content="Hexo,"/><meta name="description" content="Hexo+ShokaX主题安装"/><link rel="canonical" href="https://lyrashore.com/computer-science/hexo/shokax/shokax-start/"><title>Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(一)</title><meta name="generator" content="Hexo 7.3.0"><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(一)</h1><div class="meta"><span class="item" title="创建时间：2025-02-23 16:03:42"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2025-02-23T16:03:42+00:00">2025-02-23</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>5.7k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>5 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Noctilumina</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li><li class="item random-post"><i class="ic i-dice-outline" onclick="toRandomPost()" title="随机文章"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250224203959038.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250223213425162.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250224203959040.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250224203900257.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250304192352339.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://img.whitesand.top/img/20250223213356064.webp&quot;);"></li></ul></div><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div></header><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首页</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/" itemprop="item" rel="index" title="分类于计算机科学"><span itemprop="name">计算机科学<meta itemprop="position" content="0"/></span></a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/hexo/" itemprop="item" rel="index" title="分类于Hexo"><span itemprop="name">Hexo<meta itemprop="position" content="1"/></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/hexo/shokax/" itemprop="item" rel="index" title="分类于Shokax"><span itemprop="name">Shokax<meta itemprop="position" content="2"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://lyrashore.com/computer-science/hexo/shokax/shokax-start/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.webp"/><meta itemprop="name" content="流萤白沙"/><meta itemprop="description" content="莫愁千里路，自有到来风, 学习-记录-分享"/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="流萤白沙のBlog"/></span><div class="body md" itemprop="articleBody"><div class="tabs" id="summary"><div class="show-btn"></div><div class="nav"><ul class="special"></ul></div><div class="tab" data-id="summary" data-title="自我介绍"><p>✨ 我是流萤白沙的「文章捕手」，擅长在文字的星海中打捞精华。每当新的篇章诞生，我就会像整理贝壳一样，将思想的闪光点串成珍珠项链~</p></div><div class="tab active" data-id="summary" data-title="文章概括"><p>本文记录了使用Hexo+ShokaX主题搭建个人博客的过程。首先介绍了准备工作，包括安装Node.js和包管理器pnpm。然后详细说明了Hexo的安装步骤以及ShokaX主题的安装和配置过程。最后，给出了基本配置的步骤，包括markdown配置、停用默认代码高亮、文件压缩和feed生成等。通过本文的指导，可以顺利搭建个人博客并进行初步配置。</p></div></div><div class="note info">
+<p>本文记录了我的搭建过程，以及过程中我遇到的问题和解决方法，应该可以给同样想要搭建 shokax 主题博客的大家提供一定的参考。</p>
+<p>以下内容由博主自行摸索 + 查阅相关文档整理得来，其中如果有误，还请各位大佬指正。</p>
+<p>博主<span class="spoiler" title="你知道得太多了">半瓶水</span> 术语使用不专业，如若有疑问，欢迎留言咨询。</p>
+</div>
+<div class="note primary">
+<p>因文章比较长<span class="spoiler" title="你知道得太多了">想多水几篇</span>，故分成几个部分以提升观感，可以点击下面进行跳转</p>
+<p><a href="/computer-science/hexo/shokax/shokax-start/">1️⃣主题安装</a> - <a href="/computer-science/hexo/shokax/shokax-deploy/">2️⃣主题部署</a> - <a href="/computer-science/hexo/shokax/shokax-module/">3️⃣配套功能</a></p>
+</div>
+<h1 id="准备工作"><a class="anchor" href="#准备工作">#</a> 准备工作</h1>
+<h2 id="nodejs"><a class="anchor" href="#nodejs">#</a> Node.js</h2>
+<p>根据 <a target="_blank" rel="noopener" href="https://hexo.docs.shokax.top/getting-started/">官方文档</a> 中所述，ShokaX 主题需要 nodejs 18 以及更高的版本，因此需要提前准备好，避免到时候掉链子</p>
+<p>如果你已经安装好 nodejs 的话，可以直接跳过去下一步</p>
+<p>如果没有的话，这边推荐使用 <a target="_blank" rel="noopener" href="https://github.com/coreybutler/nvm-windows/releases">nvm</a>, 方便以后管理 nodejs 版本，有时候不同的项目要求的 nodejs 版本不同，来回切换真的很麻烦</p>
+<p>通过 nvm 可以快速的切换 nodejs 版本，去 Github <a target="_blank" rel="noopener" href="https://github.com/coreybutler/nvm-windows/releases">下载最新版 nvm 安装程序</a></p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223213724537.webp" alt="image-20250223164620331" /></p>
+<p>之后一直下一步就行了</p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223213724538.webp" alt="image-20250223165729195" /></p>
+<p>装完之后 <span class="kbd">Win</span> + <span class="kbd red">R</span> 打开命令提示符，输入</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>nvm version</pre></td></tr></table></figure><p>能看见版本号就说明安装好了</p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223213724539.webp" alt="image-20250223172119900" /></p>
+<p>接下来就是安装 node 了</p>
+<p>在命令提示符里面输入</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>nvm <span class="token function">install</span> <span class="token number">18.19</span>.0</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">#静静等待安装完成的提示</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">#速度慢的话切换国内镜像，网上教程很多，我就不过多赘述了，毕竟这不是今天的主题</span></pre></td></tr><tr><td data-num="4"></td><td><pre>nvm use <span class="token number">18.19</span>.0</pre></td></tr></table></figure><p>到此 nodejs 就算安装成功了</p>
+<h2 id="包管理器-pnpm"><a class="anchor" href="#包管理器-pnpm">#</a>  <code>包管理器</code>  pnpm</h2>
+<p>接下来安装包管理器，官方文档建议我们使用 pnpm，那我们就安装它</p>
+<p>很简单，只需要在命令提示符里面输入</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> pnpm@latest-10</pre></td></tr></table></figure><h1 id="hexo-安装"><a class="anchor" href="#hexo-安装">#</a> Hexo 安装</h1>
+<p>打开命令提示符，输入以下命令</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">pnpm</span> <span class="token function">add</span> hexo-cli <span class="token parameter variable">-g</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">#cd 你的博客目录</span></pre></td></tr><tr><td data-num="3"></td><td><pre>hexo init</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#静静等待命令执行完成</span></pre></td></tr></table></figure><p>完成之后我们会得到如图所示的一堆文件</p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223213724536.webp" alt="image-20250223190336257" /></p>
+<p>命令行执行  <code>hexo s</code> ，打开给出的那串地址，可以看到 hexo 已经安装成功了</p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223225419220.webp" alt="image-20250223225415009" /></p>
+<h1 id="shoax-安装"><a class="anchor" href="#shoax-安装">#</a> ShoaX 安装</h1>
+<p>下面我们 cd 到  <code>themes</code>  进行 ShokaX 主题的安装</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token builtin class-name">cd</span> themes</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">git</span> clone https://github.com/theme-shoka-x/hexo-theme-shokaX.git </pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">#这里可以替换成你自己的仓库，建议 fork 主题仓库，方便后续更新主题</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">#clone 完成之后，把 hexo-theme-shokaX 重命名成 shokax</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token builtin class-name">cd</span> shokax</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token function">node</span> ./toolbox/compiler.mjs</pre></td></tr></table></figure><p>这时候遇到报错了，先别急，仔细看看，貌似是缺少  <code>esbuild</code>  依赖包，我们把它装上</p>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223223411724.webp" alt="image-20250223223408250" /></p>
+<p>命令行执行  <code>pnpm add esbuild</code></p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">pnpm</span> <span class="token function">add</span> esbuild</pre></td></tr></table></figure><p>等待安装完成之后再次执行刚刚报错的命令就能够顺利执行了</p>
+<p>编译完成之后我们 cd 到 hexo 根目录，执行下面的命令</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token builtin class-name">cd</span> <span class="token punctuation">..</span>/<span class="token punctuation">..</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">node</span> ./themes/shokax/toolbox/hoistdep.mjs</pre></td></tr></table></figure><p>等待运行完成之后，打开 hexo 根目录的  <code>_config.yml</code> ，把  <code>theme: landscape</code>  改成  <code>theme: shokax</code></p>
+<p>顺便再把  <code>language: cn</code>  改成  <code>language: zh-CN</code>  更换博客主语言</p>
+<p>接着再次 hexo s 进行预览，看见下面这样的，就已经成功 90% 了</p>
+<div class="note info">
+<p>按 <span class="kbd">Ctrl</span> + <span class="kbd red">C</span> 可以结束进程</p>
+</div>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250223230719567.webp" alt="image-20250223230715930" /></p>
+<h2 id="基本配置"><a class="anchor" href="#基本配置">#</a> 基本配置</h2>
+<div class="note primary">
+<p>在此之前</p>
+<p>记得把 hexo 根目录的  <code>_config.landscape.yml</code>  重命名为  <code>_config.shokax.yml</code></p>
+<p>这很重要，把主题配置独立出来，既方便管理，也能避免主题更新时配置被覆盖的问题</p>
+</div>
+<h3 id="markdown-配置"><a class="anchor" href="#markdown-配置">#</a> markdown 配置</h3>
+<p>打开 hexo 根目录的  <code>_config.yml</code>  文件，把下面的配置加到最后面  <span class="label danger">注意缩进</span></p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">markdown</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">render</span><span class="token punctuation">:</span> <span class="token comment"># 渲染器设置</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token key atrule">html</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># 过滤 HTML 标签</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">xhtmlOut</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 使用 '/' 来闭合单标签 （比如 &lt;br />）。</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token key atrule">breaks</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 转换段落里的 '\n' 到 &lt;br>。</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token key atrule">linkify</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 将类似 URL 的文本自动转换为链接。</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token key atrule">typographer</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token key atrule">quotes</span><span class="token punctuation">:</span> <span class="token string">"“”‘’"</span></pre></td></tr><tr><td data-num="9"></td><td><pre>  <span class="token key atrule">plugins</span><span class="token punctuation">:</span> <span class="token comment"># markdown-it 插件设置</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token punctuation">-</span> <span class="token key atrule">plugin</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="11"></td><td><pre>        <span class="token key atrule">name</span><span class="token punctuation">:</span> markdown<span class="token punctuation">-</span>it<span class="token punctuation">-</span>toc<span class="token punctuation">-</span>and<span class="token punctuation">-</span>anchor</pre></td></tr><tr><td data-num="12"></td><td><pre>        <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        <span class="token key atrule">options</span><span class="token punctuation">:</span> <span class="token comment"># 文章目录以及锚点应用的 class 名称，shoka 系主题必须设置成这样</span></pre></td></tr><tr><td data-num="14"></td><td><pre>          <span class="token key atrule">tocClassName</span><span class="token punctuation">:</span> <span class="token string">"toc"</span></pre></td></tr><tr><td data-num="15"></td><td><pre>          <span class="token key atrule">anchorClassName</span><span class="token punctuation">:</span> <span class="token string">"anchor"</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token punctuation">-</span> <span class="token key atrule">plugin</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token key atrule">name</span><span class="token punctuation">:</span> markdown<span class="token punctuation">-</span>it<span class="token punctuation">-</span>multimd<span class="token punctuation">-</span>table</pre></td></tr><tr><td data-num="18"></td><td><pre>        <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="19"></td><td><pre>        <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="20"></td><td><pre>          <span class="token key atrule">multiline</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="21"></td><td><pre>          <span class="token key atrule">rowspan</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="22"></td><td><pre>          <span class="token key atrule">headerless</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token punctuation">-</span> <span class="token key atrule">plugin</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="24"></td><td><pre>        <span class="token key atrule">name</span><span class="token punctuation">:</span> ./markdown<span class="token punctuation">-</span>it<span class="token punctuation">-</span>furigana</pre></td></tr><tr><td data-num="25"></td><td><pre>        <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="26"></td><td><pre>        <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="27"></td><td><pre>          <span class="token key atrule">fallbackParens</span><span class="token punctuation">:</span> <span class="token string">"()"</span></pre></td></tr><tr><td data-num="28"></td><td><pre>    <span class="token punctuation">-</span> <span class="token key atrule">plugin</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="29"></td><td><pre>        <span class="token key atrule">name</span><span class="token punctuation">:</span> ./markdown<span class="token punctuation">-</span>it<span class="token punctuation">-</span>spoiler</pre></td></tr><tr><td data-num="30"></td><td><pre>        <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="31"></td><td><pre>        <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="32"></td><td><pre>          <span class="token key atrule">title</span><span class="token punctuation">:</span> <span class="token string">"你知道得太多了"</span></pre></td></tr></table></figure><h3 id="停用默认代码高亮"><a class="anchor" href="#停用默认代码高亮">#</a> 停用默认代码高亮</h3>
+<p>打开 hexo 根目录  <code>package.json</code> ，查看  <code>hexo</code>  的版本，停用内建代码高亮组件</p>
+<div class="note info">
+<p>shokax 自己的渲染器自带代码高亮</p>
+</div>
+<p>如果小于等于  <code>6.3.0</code> ，修改  <code>_config.yml</code></p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">highlight</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key atrule">prismjs</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr></table></figure><p>如果大于等于  <code>7.0.0-rc1</code></p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">syntax_highlighter</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr></table></figure><h3 id="文件压缩"><a class="anchor" href="#文件压缩">#</a> 文件压缩</h3>
+<p>把下面的配置加到  <code>_config.yml</code>  末尾</p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">minify</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">js</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># ShokaX 自带 esbuild 优化，不建议开启，其他主题建议开启</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">exclude</span><span class="token punctuation">:</span> <span class="token comment"># 排除文件，接受 string []，需符合 micromatch 格式</span></pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">css</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 开启 CSS 优化</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="8"></td><td><pre>      <span class="token key atrule">targets</span><span class="token punctuation">:</span> <span class="token string">">= 0.5%"</span> <span class="token comment"># browserslist 格式的 target</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token key atrule">exclude</span><span class="token punctuation">:</span> <span class="token comment"># 排除文件，接受 string []，需符合 micromatch 格式</span></pre></td></tr><tr><td data-num="10"></td><td><pre>  <span class="token key atrule">html</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token key atrule">minifier</span><span class="token punctuation">:</span> html<span class="token punctuation">-</span>minifier</pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 开启 HTML 优化</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="14"></td><td><pre>      <span class="token key atrule">comments</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># 是否保留注释内容</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token key atrule">exclude</span><span class="token punctuation">:</span> <span class="token comment"># 排除文件，接受 string []，需符合 micromatch 格式</span></pre></td></tr><tr><td data-num="16"></td><td><pre>  <span class="token key atrule">image</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># 开启图片预处理和自动 WebP 化</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token key atrule">options</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="19"></td><td><pre>      <span class="token key atrule">avif</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr><tr><td data-num="20"></td><td><pre>      <span class="token key atrule">webp</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> <span class="token comment"># 预留配置项，现版本无作用</span></pre></td></tr><tr><td data-num="21"></td><td><pre>      <span class="token key atrule">quality</span><span class="token punctuation">:</span> <span class="token number">80</span> <span class="token comment"># 质量，支持 1-100 的整数、lossless 或 nearLossless</span></pre></td></tr><tr><td data-num="22"></td><td><pre>      <span class="token key atrule">effort</span><span class="token punctuation">:</span> <span class="token number">2</span> <span class="token comment"># CPU 工作量，0-6 之间的整数 (越低越快)</span></pre></td></tr><tr><td data-num="23"></td><td><pre>      <span class="token key atrule">replaceSrc</span><span class="token punctuation">:</span> <span class="token boolean important">false</span> <span class="token comment"># 自动替换生成 html 中的本地图片链接为 webp 链接</span></pre></td></tr><tr><td data-num="24"></td><td><pre>      <span class="token comment"># 对于使用 CI 工作流部署的用户，请注意本配置可能导致图片 404，如果出现请关闭</span></pre></td></tr><tr><td data-num="25"></td><td><pre>      <span class="token comment"># 我们更建议使用 Service Worker 来在用户侧实现 replaceSrc 的功能，这将能够以一种侵入式更小的方式实现链接替换</span></pre></td></tr><tr><td data-num="26"></td><td><pre>    exclude<span class="token punctuation">:</span></pre></td></tr></table></figure><h3 id="feed-生成"><a class="anchor" href="#feed-生成">#</a> feed 生成</h3>
+<p>同样加到  <code>_config.yml</code>  末尾</p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">feed</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">20</span></pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">order_by</span><span class="token punctuation">:</span> <span class="token string">"-date"</span></pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">tag_dir</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">category_dir</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token key atrule">rss</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token key atrule">template</span><span class="token punctuation">:</span> <span class="token string">"node_modules/hexo-theme-shokax/layout/_alternate/rss.ejs"</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token key atrule">output</span><span class="token punctuation">:</span> <span class="token string">"rss.xml"</span></pre></td></tr><tr><td data-num="10"></td><td><pre>  <span class="token key atrule">atom</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token key atrule">template</span><span class="token punctuation">:</span> <span class="token string">"node_modules/hexo-theme-shokax/layout/_alternate/atom.ejs"</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token key atrule">output</span><span class="token punctuation">:</span> <span class="token string">"atom.xml"</span></pre></td></tr><tr><td data-num="14"></td><td><pre>  <span class="token key atrule">jsonFeed</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token key atrule">template</span><span class="token punctuation">:</span> <span class="token string">"node_modules/hexo-theme-shokax/layout/_alternate/json.ejs"</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token key atrule">output</span><span class="token punctuation">:</span> <span class="token string">"feed.json"</span></pre></td></tr></table></figure><h1 id="其他问题"><a class="anchor" href="#其他问题">#</a> 其他问题</h1>
+<h2 id="hexo-gs-报错"><a class="anchor" href="#hexo-gs-报错">#</a> hexo g/s 报错</h2>
+<p><img loading="lazy" data-src="https://img.whitesand.top/img/20250224003043600.webp" alt="image-20250224003038064" /></p>
+<ul>
+<li>解决办法：hexo 根目录执行  <code>pnpm add hexo-theme-shokax</code></li>
+</ul>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">pnpm</span> <span class="token function">add</span> hexo-theme-shokax</pre></td></tr></table></figure><h2 id="文档不渲染部分渲染"><a class="anchor" href="#文档不渲染部分渲染">#</a> 文档不渲染 / 部分渲染</h2>
+<ul>
+<li>解决办法：更换 hexo 自带 md 渲染器为 shokax 的 md 渲染器，hexo 根目录执行</li>
+</ul>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">pnpm</span> remove hexo-renderer-marked</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">pnpm</span> <span class="token function">add</span> hexo-renderer-multi-next-markdown-it</pre></td></tr><tr><td data-num="3"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo g</pre></td></tr><tr><td data-num="4"></td><td><pre> <span class="token comment">#如果问题仍然存在，系浏览器缓存问题，清除缓存之后再次尝试</span></pre></td></tr></table></figure><div class="tags"><a href="/tags/Hexo/" rel="tag"><i class="ic i-tag"></i>Hexo</a><a href="/tags/ShokaX/" rel="tag"><i class="ic i-tag"></i>ShokaX</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-eye"></i></span><span class="text">总访问量：</span><span class="waline-pageview-count" id="twikoo_visitors" data-path="/computer-science/hexo/shokax/shokax-start/">加载中...</span></span><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于 </span><time title="修改时间：2025-03-12 14:19:09" itemprop="dateModified" datetime="2025-03-12T14:19:09+00:00">2025-03-12</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="/assets/wechatpay.webp" alt="流萤白沙 微信支付"/><p>微信支付</p></div><div><img loading="lazy" data-src="/assets/alipay.webp" alt="流萤白沙 支付宝"/><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>流萤白沙<i class="ic i-at"><em>@</em></i>流萤白沙のBlog</li><li class="link"><strong>本文链接：</strong><a href="https://lyrashore.com/computer-science/hexo/shokax/shokax-start/" title="Hexo+ShokaX主题+Vercel&#x2F;Github Pages搭建个人博客(一)">https://lyrashore.com/computer-science/hexo/shokax/shokax-start/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/computer-science/csharp/Nullable/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;img.whitesand.top&#x2F;img&#x2F;20250224203900257.webp" title="C#可空类型"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>C#</span><h3>C#可空类型</h3></a></div><div class="item right"><a href="/computer-science/hexo/shokax/shokax-deploy/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;img.whitesand.top&#x2F;img&#x2F;20250224203959040.webp" title="Hexo+ShokaX主题+Vercel&#x2F;Github Pages搭建个人博客(二)"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>Shokax</span><h3>Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(二)</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text"> 准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#nodejs"><span class="toc-number">1.1.</span> <span class="toc-text"> Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8-pnpm"><span class="toc-number">1.2.</span> <span class="toc-text">  包管理器  pnpm</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo-%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text"> Hexo 安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#shoax-%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text"> ShoaX 安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE"><span class="toc-number">3.1.</span> <span class="toc-text"> 基本配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#markdown-%E9%85%8D%E7%BD%AE"><span class="toc-number">3.1.1.</span> <span class="toc-text"> markdown 配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%81%9C%E7%94%A8%E9%BB%98%E8%AE%A4%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE"><span class="toc-number">3.1.2.</span> <span class="toc-text"> 停用默认代码高亮</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%8E%8B%E7%BC%A9"><span class="toc-number">3.1.3.</span> <span class="toc-text"> 文件压缩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#feed-%E7%94%9F%E6%88%90"><span class="toc-number">3.1.4.</span> <span class="toc-text"> feed 生成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text"> 其他问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-gs-%E6%8A%A5%E9%94%99"><span class="toc-number">4.1.</span> <span class="toc-text"> hexo g&#x2F;s 报错</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E4%B8%8D%E6%B8%B2%E6%9F%93%E9%83%A8%E5%88%86%E6%B8%B2%E6%9F%93"><span class="toc-number">4.2.</span> <span class="toc-text"> 文档不渲染 &#x2F; 部分渲染</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li  class="active"><a href="/computer-science/hexo/shokax/shokax-start/" rel="bookmark" title="Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(一)">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(一)</a></li><li ><a href="/computer-science/hexo/shokax/shokax-deploy/" rel="bookmark" title="Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(二)">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(二)</a></li><li ><a href="/computer-science/hexo/shokax/shokax-module/" rel="bookmark" title="Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(三)">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(三)</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="流萤白沙" src="/assets/avatar.webp"/><p class="name" itemprop="name">流萤白沙</p><div class="description" itemprop="description">学习-记录-分享</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">32</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">15</span><span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">9</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/Winter334" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;Winter334"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://space.bilibili.com/106140797" class="item bilibili" title="https:&#x2F;&#x2F;space.bilibili.com&#x2F;106140797"><i class="ic i-bilibili"></i></a><a href="https://lyrashore.com/atom.xml" class="item rss" title="https:&#x2F;&#x2F;lyrashore.com&#x2F;atom.xml"><i class="ic i-rss"></i></a><a target="_blank" rel="noopener" href="https://music.163.com/#/user/home?id=417310841" class="item music" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;417310841"><i class="ic i-cloud-music"></i></a><a href="mailto:robit@vip.qq.com" class="item email" title="mailto:robit@vip.qq.com"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li><li class="item"><a href="/statistics/" rel="section"><i class="ic i-statistics"></i>统计</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-address-card"></i>关于</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>关于我</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-interact"></i>互动</a><ul class="submenu"><li class="item"><a href="/message/" rel="section"><i class="ic i-comments"></i>留言</a></li><li class="item"><a href="/talks/" rel="section"><i class="ic i-talk"></i>说说</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-magic"></i>链环</a><ul class="submenu"><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>友链</a></li><li class="item"><a href="/webstack/" rel="section"><i class="ic i-star"></i>网址</a></li></ul></li><li class="item"><a target="_blank" href="https://www.travellings.cn/go-by-clouds.html" rel="section noopener"><i class="ic i-high-speed-train"></i>开往</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/computer-science/hexo/shokax/shokax-deploy/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/computer-science/csharp/Nullable/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/others/" title="分类于其他">其他</a><i class="ic i-angle-right"></i><a href="/categories/others/novels/" title="分类于杂笔">杂笔</a><i class="ic i-angle-right"></i><a href="/categories/others/novels/%E6%81%B6%E9%AD%94%E9%99%8D%E4%B8%B4%E6%88%91%E8%BA%AB%E8%BE%B9/" title="分类于恶魔降临我身边">恶魔降临我身边</a></div><span><a href="/others/novels/one/2025-3-7-1/">第一章：被恶魔缠上是好事吗？</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/" title="分类于Hexo">Hexo</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/shokax/" title="分类于Shokax">Shokax</a></div><span><a href="/computer-science/hexo/shokax/shokax-start/">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(一)</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" title="分类于考研笔记">考研笔记</a><i class="ic i-angle-right"></i><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" title="分类于考研政治">考研政治</a></div><span><a href="/kaoyan-notes/politics/Day12/">Day12</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/" title="分类于技术分享">技术分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/" title="分类于Hexo">Hexo</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB/" title="分类于源码分享">源码分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/enhance/" title="分类于Hexo美化">Hexo美化</a></div><span><a href="/computer-science/hexo/enhance/2025-3-6/">网页实现打字机效果</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" title="分类于考研笔记">考研笔记</a><i class="ic i-angle-right"></i><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" title="分类于考研政治">考研政治</a></div><span><a href="/kaoyan-notes/politics/Day5/">Day5</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/" title="分类于技术分享">技术分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/" title="分类于Hexo">Hexo</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB/" title="分类于源码分享">源码分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/enhance/" title="分类于Hexo美化">Hexo美化</a></div><span><a href="/computer-science/hexo/enhance/2025-3-3/">Hexo博客添加可动立牌</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/" title="分类于Hexo">Hexo</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/shokax/" title="分类于Shokax">Shokax</a></div><span><a href="/computer-science/hexo/shokax/shokax-deploy/">Hexo+ShokaX主题+Vercel/Github Pages搭建个人博客(二)</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" title="分类于考研笔记">考研笔记</a><i class="ic i-angle-right"></i><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" title="分类于考研政治">考研政治</a></div><span><a href="/kaoyan-notes/politics/Day7/">Day7</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/" title="分类于考研笔记">考研笔记</a><i class="ic i-angle-right"></i><a href="/categories/%E8%80%83%E7%A0%94%E7%AC%94%E8%AE%B0/%E8%80%83%E7%A0%94%E6%94%BF%E6%B2%BB/" title="分类于考研政治">考研政治</a></div><span><a href="/kaoyan-notes/politics/Day9/">Day9</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/" title="分类于技术分享">技术分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/" title="分类于Hexo">Hexo</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/technical-sharing/%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB/" title="分类于源码分享">源码分享</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/hexo/enhance/" title="分类于Hexo美化">Hexo美化</a></div><span><a href="/computer-science/hexo/enhance/2025-3-2/">Hexo博客添加樱花飘落特效</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">&copy; 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">流萤白沙 @ Noctilumina</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">148k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">2:15</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div><div class="extra-status"><div class="icp-gov-moe-warp"><a class="icp-link" href="https://icp.gov.moe/?keyword=20250715" target="_blank"><span class="icon-text"><img class="icp-icon" src="https://moe.one/view/img/ico64.png"/>萌ICP备20250715号</span></a><span class="separator">| </span><a class="travel-link" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><span class="icon-text"><img class="travel-icon" src="https://travel.moe/images/icon/icon64.png"/>异次元之旅</span></a></div><div class="traval-logo-warp"><a href="https://www.travellings.cn/go-by-clouds.html" target="_blank" rel="noopener" title="开往-友链接力"><img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120"/></a></div><div class="createtime-warp"><div class="createtime-counter"><span id="time"></span></div></div></div><script>function createtime() {
+    const n = new Date("2024/12/28 18:30:50");
+    now.setTime(now.getTime() + 250), days = (now - n) / 1e3 / 60 / 60 / 24, dnum = Math.floor(days), hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum, hnum = Math.floor(hours), 1 == String(hnum).length && (hnum = "0" + hnum), minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum, mnum = Math.floor(minutes), 1 == String(mnum).length && (mnum = "0" + mnum), seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum, snum = Math.round(seconds), 1 == String(snum).length && (snum = "0" + snum), document.getElementById("time").innerHTML = "[⚠️ 高危运行] 小破站已在404的深渊上摇摇晃晃了" + dnum + " 天 " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒"
+}
+const now = new Date;
+setInterval("createtime()", 250)</script></div><script>const cdnPath = 'https://cdn.jsdmirror.com/gh/winter334/live2d-widget-v3@1.0.0.1'
+const config = {
+  path: {
+    modelPath: cdnPath + "/Resources/",
+    cssPath: cdnPath + "/waifu.css",
+    tipsJsonPath: cdnPath + "/waifu-tips.json",
+    tipsJsPath: cdnPath + "/waifu-tips.js",
+    live2dCorePath: cdnPath + "/Core/live2dcubismcore.js",
+    live2dSdkPath: cdnPath + "/live2d-sdk.js"
+  },
+  tools: ["hitokoto", "asteroids", "express","photo", "quit"],
+  drag: {
+    enable: true,
+    direction: ["x"]
+  },
+  switchType: "order"
+}
+
+if (screen.width >= 768) {
+  Promise.all([
+    loadExternalResource(config.path.cssPath, "css"),
+    loadExternalResource(config.path.live2dCorePath, "js"),
+    loadExternalResource(config.path.live2dSdkPath, "js"),
+    loadExternalResource(config.path.tipsJsPath, "js")
+  ]).then(() => {
+    initWidget({
+      waifuPath: config.path.tipsJsonPath,
+      cdnPath: config.path.modelPath,
+      tools: config.tools,
+      dragEnable: config.drag.enable,
+      dragDirection: config.drag.direction,
+      switchType: config.switchType
+    });
+  });
+}
+
+function loadExternalResource(url, type) {
+  return new Promise((resolve, reject) => {
+    let tag;
+    if (type === "css") {
+      tag = document.createElement("link");
+      tag.rel = "stylesheet";
+      tag.href = url;
+    }
+    else if (type === "js") {
+      tag = document.createElement("script");
+      tag.src = url;
+    }
+    if (tag) {
+      tag.onload = () => resolve(url);
+      tag.onerror = () => reject(url);
+      document.head.appendChild(tag);
+    }
+  });
+}</script><script src="https://vercount.one/js"></script><div class="vercount-wrap" style="width: 100%; text-align: center;"><span class="counter-meta-item-icon"><i class="ic i-leaf"></i></span><span id="vercount_container_site_pv">微风荡漾，吹落 <span id="vercount_value_site_pv"></span> 枚落叶</span> | <span class="counter-meta-item-icon"><i class="ic i-foot"></i></span><span id="vercount_container_site_uv">探首回望，曾有 <span id="vercount_value_site_uv"></span> 位旅人路过</span></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `computer-science/hexo/shokax/shokax-start/`,
+    favicon: {
+        show: `(ゝ∀･)我就知道你舍不得我`,
+        hide: `o(TヘTo)我会想你的`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    nocopy: "false",
+    copyright: `复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha384-Zm+UU4tdcfAm29vg+MTbfu&#x2F;&#x2F;q5B&#x2F;lInMbMCr4T8c9rQFyOv6PlfQYpB5wItcXWe7" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" integrity="sha384-TOxsBplaL96&#x2F;QDWPIUg+ye3v89qSE3s22XNtJMmCeZEep3cVDmXy1zEfZvVv+y2m" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/echarts/5.2.2/echarts.min.js" integrity="sha384-zEboaczr+mRTdFbfynqn3FUVKNSHEcnpUUudSYLptsxK3zgb1UvCGfgEA2g33Dxe" crossorigin="anonymous" fetchpriority="high"></script><script src="/js/siteInit.js?v=0.4.21" type="module" fetchpriority="high" defer></script><script>// 漂浮物
+// 新增函数 
+// 首先获取 Url，然后把 Url 通过 // 截成两部分，再从后一部分中截取相对路径。如果截取到的相对路径中有参数，则把参数去掉。
+// 获取相对路径
+function GetUrlRelativePath()
+{
+    var url = document.location.toString();
+    var arrUrl = url.split("//");
+
+    var start = arrUrl[1].indexOf("/");
+    var relUrl = arrUrl[1].substring(start);//stop省略，截取从start开始到结尾的所有字符
+
+    if(relUrl.indexOf("?") != -1){
+        relUrl = relUrl.split("?")[0];
+    }
+    return relUrl;
+}
+var allowAll = true; // true 则允许所有网页存在漂浮物
+// 允许显示漂浮物的网址列表
+var urlAllowList = [
+    "/",
+]
+
+var isAllowFloat = false;   // 全局变量，允许使用漂浮特效
+
+// 判断
+function decide(){
+    isAllowFloat = true;
+    if(!allowAll){
+        // 判断当前页面是否为指定页面
+        var url = GetUrlRelativePath();
+        var i = 0;
+        for(;i<urlAllowList.length;i++){
+            if(url===urlAllowList[i]){
+                // console.log(i);
+                isAllowFloat = true;
+                break;
+            }
+        }
+        if(i===urlAllowList.length){
+            isAllowFloat = false;
+        }
+    }
+    console.log(isAllowFloat)
+    if(isAllowFloat)startFloat();
+}
+
+var stop, staticx;
+var img = new Image();
+img.src = "/assets/float.png"; // 图片
+
+function Float(x, y, s, r, fn) {
+    this.x = x;
+    this.y = y;
+    this.s = s;
+    this.r = r;
+    this.fn = fn;
+}
+
+Float.prototype.draw = function(cxt) {
+    cxt.save();
+    var xc = 40 * this.s / 4;
+    cxt.translate(this.x, this.y);
+    cxt.rotate(this.r);
+    cxt.drawImage(img, 0, 0, 35 * this.s, 35 * this.s)
+    //漂浮物大小
+    cxt.restore();
+}
+
+Float.prototype.update = function() {
+    this.x = this.fn.x(this.x, this.y);
+    this.y = this.fn.y(this.y, this.y);
+    this.r = this.fn.r(this.r);
+    if (this.x > window.innerWidth || this.x < 0 || this.y > window.innerHeight || this.y < 0) {
+        this.r = getRandom('fnr');
+        if (Math.random() > 0.4) {
+            this.x = getRandom('x');
+            this.y = 0;
+            this.s = getRandom('s');
+            this.r = getRandom('r');
+        } else {
+            this.x = window.innerWidth;
+            this.y = getRandom('y');
+            this.s = getRandom('s');
+            this.r = getRandom('r');
+        }
+    }
+}
+
+FloatList = function() {
+    this.list = [];
+}
+FloatList.prototype.push = function(float) {
+    this.list.push(float);
+}
+FloatList.prototype.update = function() {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].update();
+    }
+}
+FloatList.prototype.draw = function(cxt) {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].draw(cxt);
+    }
+}
+FloatList.prototype.get = function(i) {
+    return this.list[i];
+}
+FloatList.prototype.size = function() {
+    return this.list.length;
+}
+
+function getRandom(option) {
+    var ret, random;
+    switch (option) {
+    case 'x':
+        ret = Math.random() * window.innerWidth;
+        break;
+    case 'y':
+        ret = Math.random() * window.innerHeight;
+        break;
+    case 's':
+        ret = Math.random();
+        break;
+    case 'r':
+        ret = Math.random() * 6;
+        break;
+    case 'fnx':
+        random = -0.5 + Math.random() * 1;
+        ret = function(x, y) {
+            return x + 0.5 * random - 0.6;
+            //x轴速度
+        }
+        ;
+        break;
+    case 'fny':
+        random = 0.8 + Math.random() * 0.7
+        //y轴速度
+        ret = function(x, y) {
+            return y + random;
+        }
+        ;
+        break;
+    case 'fnr':
+        random = Math.random() * 0.03;
+        ret = function(r) {
+            return r + random;
+        }
+        ;
+        break;
+    }
+    return ret;
+}
+
+function startFloat() {
+
+    requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || window.oRequestAnimationFrame;
+    var canvas = document.createElement('canvas'), cxt;
+    staticx = true;
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none; z-index: 4;');
+    canvas.setAttribute('id', 'canvas_float');
+    document.getElementsByTagName('body')[0].appendChild(canvas);
+    cxt = canvas.getContext('2d');
+    var floatList = new FloatList();
+    for (var i = 0; i < 10; i++) {
+        //漂浮物数量
+        var float, randomX, randomY, randomS, randomR, randomFnx, randomFny;
+        randomX = getRandom('x');
+        randomY = getRandom('y');
+        randomR = getRandom('r');
+        randomS = getRandom('s');
+        randomFnx = getRandom('fnx');
+        randomFny = getRandom('fny');
+        randomFnR = getRandom('fnr');
+        float = new Float(randomX,randomY,randomS,randomR,{
+            x: randomFnx,
+            y: randomFny,
+            r: randomFnR
+        });
+        float.draw(cxt);
+        floatList.push(float);
+    }
+    stop = requestAnimationFrame(function() {
+        cxt.clearRect(0, 0, canvas.width, canvas.height);
+        floatList.update();
+        floatList.draw(cxt);
+        stop = requestAnimationFrame(arguments.callee);
+    })
+}
+
+window.onresize = function() {
+    if(!isAllowFloat)return;
+    var canvasSnow = document.getElementById('canvas_float');
+    canvasSnow.width = window.innerWidth;
+    canvasSnow.height = window.innerHeight;
+}
+
+function stopp(e) {
+    if (!e && document.getElementById("canvas_float")) {
+        var child = document.getElementById("canvas_float");
+        child.parentNode.removeChild(child);
+        window.cancelAnimationFrame(stop);
+    } else if (e && !document.getElementById("canvas_float")) {
+        decide();
+    }
+}
+
+window.addEventListener("DOMContentLoaded",decide);</script><script src="https://s4.zstatic.net/ajax/libs/typed.js/2.1.0/typed.umd.js"></script><script>function initTyped() {
+  if (window.typedInstance) {
+    typedInstance.destroy();
+  }
+  
+  if (document.getElementById('typer-title')) {
+    var typedStrings = ["流萤白沙のBlog","学习 - 记录 - 分享","Learn - Record - Share"];
+    window.typedInstance = new Typed("#typer-title", {
+      strings: typedStrings.length > 0 ? typedStrings : ["Hello World!", "你好，世界!"],
+      typeSpeed: 50,
+      startDelay: 2000,
+      backSpeed: 25,
+      backDelay: 2000,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|"
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', initTyped);
+document.addEventListener('pjax:complete', initTyped);</script></body></html><script>
+            var posts = ["others/Announcements/","computer-science/csharp/Nullable/","computer-science/technical-sharing/2025-3-8-1/","computer-science/technical-sharing/image-hosting/","kaoyan-notes/politics/Day1/","kaoyan-notes/politics/Day10/","kaoyan-notes/politics/Day11/","kaoyan-notes/politics/Day12/","kaoyan-notes/politics/Day13/","kaoyan-notes/politics/Day2/","kaoyan-notes/politics/Day3/","kaoyan-notes/politics/Day4/","kaoyan-notes/politics/Day5/","kaoyan-notes/politics/Day6/","kaoyan-notes/politics/Day7/","kaoyan-notes/politics/Day8/","kaoyan-notes/politics/Day9/","others/novels/2025-3-4/","computer-science/hexo/enhance/2025-3-2/","computer-science/hexo/enhance/2025-3-6/","computer-science/hexo/enhance/2025-3-3/","computer-science/hexo/shokax/shokax-deploy/","computer-science/hexo/shokax/shokax-module/","computer-science/hexo/shokax/shokax-start/","others/novels/one/2025-3-5/","others/novels/one/2025-3-7-1/","others/novels/one/2025-3-7-2/","others/novels/one/2025-3-8-2/","others/novels/one/2025-3-8-3/","others/novels/one/2025-3-9-1/","others/novels/one/2025-3-9-2/","others/novels/declaration/"];
+            function toRandomPost() { 
+                var post = posts[Math.floor(Math.random() * posts.length)];
+                window.pjax ? pjax.loadUrl('/' + post) : window.open('/' + post, "_self"); 
+            };
+        </script>

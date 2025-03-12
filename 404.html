@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>404 Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.icbc.com.cn/resource/lib/jquery/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<glitch>
+  <div class="hero"></div>
+  <div class="content-wrapper">
+    <h1>404?!</h1>
+    <h2>你似乎走到了一个无人的角落 &hellip;</h2>
+    <p>我们不知道你是怎么到这里来的，如果你想回去的话，可以试着点击<a href="/">这里</a>。</p>
+    <p>&hellip;&hellip;</p>
+    <p>抓紧时间，出口在███现象发生之后将会失效&hellip;</p>
+    <p>&hellip;</p>
+    <p>我们确信你的造访是一个错误，至于原因 &hellip; 抱歉，不过你可以试着联系<a href="mailto:robit@vip.qq.com">████</a>。</p>
+  </div>
+</glitch>
+
+<style>
+  /* 基础样式 */
+  :root {
+    font-size: 16px;
+  }
+
+  .hero {
+    min-height: 50vh;
+    width: 100%;
+    background: url(https://img.whitesand.top/img/20250223213308162.webp);
+    background-size: cover;
+    background-position: top;
+  }
+
+  body {
+    margin: 0;
+    color: #585E62;
+    font-family: Arial;
+    line-height: 1.6;
+  }
+
+  .content-wrapper {
+    max-width: 800px;
+    margin: 0;
+    padding: 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  a {
+    color: #4466FF;
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  /* 响应式调整 */
+  @media (max-width: 768px) {
+    :root {
+      font-size: 14px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content-wrapper {
+      padding: 0 1rem;
+    }
+    
+    h1 {
+      font-size: 1.75rem;
+    }
+  }
+</style>
+
+<script>
+    // Glitch Line Vars
+var glitch_lines = 15,
+	glitch_line_duration_min = 100,
+	glitch_line_duration_max = 500,
+	glitch_line_timer_min = 100,
+	glitch_line_timer_max = 5000,
+	glitch_line_wait_min = 100,
+	glitch_line_wait_max = 3000,
+	glitch_line_height_min = 5,
+	glitch_line_height_max = 50;
+
+// Glitch Move Vars
+var glitch_move_color_1 = '#08FFF2',
+	glitch_move_color_2 = '#FC0DFF',
+	glitch_move_original_color = '#585E62',
+	glitch_move_opacity = .2,
+	glitch_move_duration_min = 1000,
+	glitch_move_duration_max = 300,
+	glitch_move_timer_min = 500,
+	glitch_move_timer_max = 1500,
+	glitch_move_wait_min = 1000,
+	glitch_move_wait_max = 2000,
+	glitch_move_amount_min = -10,
+	glitch_move_amount_max = 10;
+
+	// Do you want to autostart on page load?
+	var glitch_autostart = 1;
+
+	// Start Glitch on page load.
+	window.onload = function() {
+		if (glitch_autostart) {
+			glitch = new glitch();
+			glitch.init();
+		}
+		// 增强清理逻辑：使用命名空间存储定时器
+		window.addEventListener('beforeunload', function() {
+			// 清理 Glitch Move
+			clearTimeout(glitchmove?.timeout);
+			
+			// 清理 Glitch Lines
+			glitch?.glitchlines?.forEach(line => {
+				clearTimeout(line?.timeouts);
+				clearInterval(line?.interval);
+			});
+
+			// 强制移除所有残留元素
+			const elementsToRemove = document.querySelectorAll(
+				'[class^="glitch-line-"], .glitch-div-1, .glitch-div-2'
+			);
+			elementsToRemove.forEach(el => el.remove());
+		});
+	}
+
+	// Random integer function (Will correctly work w/ negative numbers)
+	function randomInt(min, max){
+		return Math.floor(Math.random()*(max-min+1)+min);
+	}
+
+	// Glitch functionality
+	function glitch() {
+
+		// Initialize the glitches
+		// - Create divs
+		// - Load divs from <glitch> element
+		// - Set body to not scroll on x-axis
+		// - Starts glitch animations
+
+		this.init = function() {
+			page_content = $('glitch').html();
+			$('body').css('overflow-x', 'hidden');
+
+			// Glitch Lines
+			linecount = 0;
+			this.glitchlines = [];
+			while (linecount < glitch_lines) {
+				$('body').append('<div class="glitch-line-'+linecount+'">'+page_content+'</div>');
+				$('.glitch-line-'+linecount).css({
+					'height': '100%',
+					'width': '100%',
+					'position': 'absolute',
+					'top': '0',
+					'left': '0'
+				}).hide();
+				this.glitchline('.glitch-line-'+linecount, linecount);
+				linecount++;
+			}
+
+			// Glitch Move
+			$('body').append('<div class="glitch-div-1">'+page_content+'</div>');
+			$('body').append('<div class="glitch-div-2">'+page_content+'</div>');
+			$('.glitch-div-1, .glitch-div-2').css({
+				'height': '100%',
+				'width': '100%',
+				'position': 'absolute',
+				'top': '0',
+				'left': '0'
+			});
+			this.glitchmove();
+		}
+
+		this.glitchline = function(div, id) {
+			// Store an array of glitchlines
+			this.glitchlines[id] = new glitchline;
+			this.glitchlines[id].start(div);
+		}
+
+		this.glitchmove = function() {
+			glitchmove = new glitchmove;
+			glitchmove.start();
+		}
+
+	}
+
+	// Glitch Move Animation
+
+	function glitchmove() {
+
+		// Start glitch
+		this.start = function() {
+			selfmove = this;
+
+			// Create a move on a regular duration
+			setInterval(function() {
+				// Wait a random number of ms to execute
+				setTimeout(function() {
+					// Create animation
+					selfmove.move();
+				}, randomInt(glitch_move_wait_min, glitch_move_wait_max));
+			}, randomInt(glitch_move_timer_min, glitch_move_timer_max));
+
+		}
+
+		this.move = function() {
+			// Move the divs a random number of pixels top & left, change the color & opacity.
+			$('.glitch-div-1').css({
+				'left': randomInt(glitch_move_amount_min, glitch_move_amount_max) + 'px',
+				'top': randomInt(glitch_move_amount_min, glitch_move_amount_max) + 'px',
+				'opacity': glitch_move_opacity,
+				'color': glitch_move_color_1
+			});
+			$('.glitch-div-2').css({
+				'left': randomInt(glitch_move_amount_min, glitch_move_amount_max) + 'px',
+				'top': randomInt(glitch_move_amount_min, glitch_move_amount_max) + 'px',
+				'opacity': glitch_move_opacity,
+				'color': glitch_move_color_2
+			});
+
+			// Prepare to move divs back
+			this.moveback();
+		}
+
+		this.moveback = function() {
+			// Move the divs back after a random time duration
+			this.timeout = setTimeout(function() {
+				// Make sure we set the text back to the original color!
+				$('.glitch-div-1, .glitch-div-2').css({
+					'left': '0px',
+					'top': '0px',
+					'color': glitch_move_original_color,
+					'opacity': '1',
+				});
+			}, randomInt(glitch_move_duration_min, glitch_move_duration_max));
+		}
+	}
+
+	function glitchline() {
+    // 初始化 timeouts 对象
+    this.timeouts = {};
+
+    // 修改后的 start 方法
+    this.start = function(div) {
+      let selfline = this;
+      this.interval = setInterval(function() {
+        setTimeout(function() {
+          selfline.add(div);
+        }, randomInt(glitch_line_wait_min, glitch_line_wait_max));
+      }, randomInt(glitch_line_timer_min, glitch_line_timer_max));
+    }
+
+	this.add = function(div) {
+		// change the height, width, top, and left using a random number
+		$(div).css({
+			'height': randomInt(glitch_line_height_min, glitch_line_height_max) + 'px',
+			'width': randomInt(window.innerWidth/2, window.innerWidth) + 'px',
+			'top': randomInt(0, window.innerHeight) + 'px',
+			'left': randomInt(0, window.innerWidth/2) + 'px',
+			'position': 'fixed',
+			'overflow': 'hidden',
+			'display': 'block',
+			'background': '#FFF'
+		});
+		// Set random scroll top & scroll left.
+		$(div).scrollTop(randomInt(0, window.innerHeight));
+  
+		// 添加窗口resize事件处理
+		let glitchInstance;
+		window.addEventListener('resize', () => {
+			if(glitchInstance) {
+			glitchInstance.init();
+			}
+		});
+		$(div).scrollLeft(randomInt(0, 100));
+
+		// Prepare to hide the div
+		this.remove(div);
+	}
+
+  // 修改后的 remove 方法
+  this.remove = function(div) {
+    const timeoutID = setTimeout(function() {
+      $(div).hide();
+    }, randomInt(glitch_line_duration_min, glitch_line_duration_max));
+    
+    // 使用唯一标识符存储 timeout
+    this.timeouts[div] = timeoutID;
+  }
+
+    // 新增清理方法
+    this.cleanup = function() {
+    Object.values(this.timeouts).forEach(clearTimeout);
+    this.timeouts = {};
+  }
+
+}
+</script>
+</body>
+</html>
